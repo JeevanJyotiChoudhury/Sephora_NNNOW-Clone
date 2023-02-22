@@ -10,6 +10,7 @@ import BankSlider from "./HomePageComponents/BankSlider";
 import HotProducts from "./HomePageComponents/HotProducts";
 import MoreOffersProd from "./HomePageComponents/MoreOffersProd";
 import CustomerTestimonials from "./HomePageComponents/CustomerTestimonials";
+import BacktoTop from "./HomePageComponents/BacktoTop";
 
 const HomePage = () => {
   return (
@@ -36,6 +37,7 @@ const HomePage = () => {
       <CustomerTestimonials data={customer_test_prod_data.customer_test_prod} />
       <SpecialOffer data={special_offer_data.top_brands} />
       <CustomerTestimonials data={customer_test_prod_data.top_brands_prod} />
+      <BacktoTop/>
     </div>
   );
 };
