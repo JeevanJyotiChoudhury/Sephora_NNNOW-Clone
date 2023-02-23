@@ -11,7 +11,7 @@
       "sleeve": "Half",
       "neck": "Polo Collar",
       "rating": "4.1",
-      "pattern": "",
+      "pattern": "Solid",
       "id": 1
     },
     {
@@ -25,7 +25,7 @@
       "sleeve": "Full",
       "neck": "Henley Neck",
       "rating": "4.2",
-      "pattern": "",
+      "pattern": "Solid",
       "id": 2
     },
     {
@@ -39,7 +39,7 @@
       "sleeve": "Half",
       "neck": "Round",
       "rating": "4.3",
-      "pattern": "",
+      "pattern": "Printed",
       "id": 3
     },
     {
@@ -53,7 +53,7 @@
       "sleeve": "Half",
       "neck": "Round",
       "rating": "4.4",
-      "pattern": "",
+      "pattern": "Printed",
       "id": 4
     },
     {
@@ -67,7 +67,7 @@
       "sleeve": "Half",
       "neck": "Polo Collar",
       "rating": "4.5",
-      "pattern": "",
+      "pattern": "Solid",
       "id": 5
     },
     {
@@ -81,7 +81,7 @@
       "sleeve": "Half",
       "neck": "Polo Collar",
       "rating": "4.6",
-      "pattern": "",
+      "pattern": "Solid",
       "id": 6
     },
     {
@@ -95,7 +95,7 @@
       "sleeve": "Half",
       "neck": "Polo Collar",
       "rating": "4.7",
-      "pattern": "",
+      "pattern": "Solid",
       "id": 7
     },
     {
@@ -151,7 +151,7 @@
       "sleeve": "Full",
       "neck": "Crew Neck",
       "rating": "4.1",
-      "pattern": "Horizontal Stripe",
+      "pattern": "Stripe",
       "id": 11
     },
     {
@@ -181,244 +181,6 @@
       "rating": "4.3",
       "pattern": "Printed",
       "id": 13
-    },
-    {
-      "image": "https://cdn12.nnnow.com/web-images/large/styles/RE7X8KDFPDD/1667213271359/1.jpg",
-      "brand": "Flying Machine",
-      "description": "Men Black Long Sleeve Solid Cotton Polo Shirt",
-      "price": "989",
-      "strike_price": "1299",
-      "category": "Polo Shirts",
-      "color": "Black",
-      "sleeve": "Full",
-      "neck": "Polo Collar",
-      "rating": "4.4",
-      "pattern": "Solid",
-      "id": 14
-    },
-    {
-      "image": "https://cdn09.nnnow.com/web-images/large/styles/XCWS31DVD94/1636544173722/1.jpg",
-      "brand": "Flying Machine",
-      "description": "Men Navy Crew Neck Colour Block T-Shirt",
-      "price": "856",
-      "strike_price": "1399",
-      "category": "T-Shirts",
-      "color": "Blue",
-      "sleeve": "Full",
-      "neck": "Crew Neck",
-      "rating": "4.5",
-      "pattern": "Block",
-      "id": 15
-    },
-    {
-      "image": "https://cdn18.nnnow.com/web-images/large/styles/5VUQ004V3E6/1633507574943/1.jpg",
-      "brand": "Flying Machine",
-      "description": "Men Black And White Long Sleeve Colour Block T-shirt",
-      "price": "874",
-      "strike_price": "1499",
-      "category": "T-Shirts",
-      "color": "White",
-      "sleeve": "Full",
-      "neck": "Round",
-      "rating": "4.6",
-      "pattern": "Block",
-      "id": 16
-    },
-    {
-      "image": "",
-      "brand": "",
-      "description": "",
-      "price": "",
-      "strike_price": "",
-      "category": "",
-      "color": "",
-      "sleeve": "",
-      "neck": "",
-      "rating": "",
-      "pattern": "",
-      "id": 17
-    },
-    {
-      "image": "",
-      "brand": "",
-      "description": "",
-      "price": "",
-      "strike_price": "",
-      "category": "",
-      "color": "",
-      "sleeve": "",
-      "neck": "",
-      "rating": "",
-      "pattern": "",
-      "id": 18
-    },
-    {
-      "image": "",
-      "brand": "",
-      "description": "",
-      "price": "",
-      "strike_price": "",
-      "category": "",
-      "color": "",
-      "sleeve": "",
-      "neck": "",
-      "rating": "",
-      "pattern": "",
-      "id": 19
-    },
-    {
-      "image": "",
-      "brand": "",
-      "description": "",
-      "price": "",
-      "strike_price": "",
-      "category": "",
-      "color": "",
-      "sleeve": "",
-      "neck": "",
-      "rating": "",
-      "pattern": "",
-      "id": 20
-    },
-    {
-      "image": "",
-      "brand": "",
-      "description": "",
-      "price": "",
-      "strike_price": "",
-      "category": "",
-      "color": "",
-      "sleeve": "",
-      "neck": "",
-      "rating": "",
-      "pattern": "",
-      "id": 21
-    },
-    {
-      "image": "",
-      "brand": "",
-      "description": "",
-      "price": "",
-      "strike_price": "",
-      "category": "",
-      "color": "",
-      "sleeve": "",
-      "neck": "",
-      "rating": "",
-      "pattern": "",
-      "id": 22
-    },
-    {
-      "image": "",
-      "brand": "",
-      "description": "",
-      "price": "",
-      "strike_price": "",
-      "category": "",
-      "color": "",
-      "sleeve": "",
-      "neck": "",
-      "rating": "",
-      "pattern": "",
-      "id": 23
-    },
-    {
-      "image": "",
-      "brand": "",
-      "description": "",
-      "price": "",
-      "strike_price": "",
-      "category": "",
-      "color": "",
-      "sleeve": "",
-      "neck": "",
-      "rating": "",
-      "pattern": "",
-      "id": 24
-    },
-    {
-      "image": "",
-      "brand": "",
-      "description": "",
-      "price": "",
-      "strike_price": "",
-      "category": "",
-      "color": "",
-      "sleeve": "",
-      "neck": "",
-      "rating": "",
-      "pattern": "",
-      "id": 25
-    },
-    {
-      "image": "",
-      "brand": "",
-      "description": "",
-      "price": "",
-      "strike_price": "",
-      "category": "",
-      "color": "",
-      "sleeve": "",
-      "neck": "",
-      "rating": "",
-      "pattern": "",
-      "id": 26
-    },
-    {
-      "image": "",
-      "brand": "",
-      "description": "",
-      "price": "",
-      "strike_price": "",
-      "category": "",
-      "color": "",
-      "sleeve": "",
-      "neck": "",
-      "rating": "",
-      "pattern": "",
-      "id": 27
-    },
-    {
-      "image": "",
-      "brand": "",
-      "description": "",
-      "price": "",
-      "strike_price": "",
-      "category": "",
-      "color": "",
-      "sleeve": "",
-      "neck": "",
-      "rating": "",
-      "pattern": "",
-      "id": 28
-    },
-    {
-      "image": "",
-      "brand": "",
-      "description": "",
-      "price": "",
-      "strike_price": "",
-      "category": "",
-      "color": "",
-      "sleeve": "",
-      "neck": "",
-      "rating": "",
-      "pattern": "",
-      "id": 29
-    },
-    {
-      "image": "",
-      "brand": "",
-      "description": "",
-      "price": "",
-      "strike_price": "",
-      "category": "",
-      "color": "",
-      "sleeve": "",
-      "neck": "",
-      "rating": "",
-      "pattern": "",
-      "id": 30
     }
   ]
 }
