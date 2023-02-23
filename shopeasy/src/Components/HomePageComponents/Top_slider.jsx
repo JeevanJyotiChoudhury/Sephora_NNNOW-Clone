@@ -3,7 +3,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import Slider_data from "../../db.json";
-import { Box } from "@chakra-ui/react";
+import { Box, Img } from "@chakra-ui/react";
 
 function SampleNextArrow(props) {
   const { className, style, onClick } = props;
@@ -30,7 +30,7 @@ function SamplePrevArrow(props) {
 const Topslider = () => {
   let topData = Slider_data.top_slider;
   var settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
@@ -44,21 +44,21 @@ const Topslider = () => {
     focusOnSelect: true,
   };
   return (
-    <div style={{ width: "80%", margin: "auto" }}>
+    <Box  w="90%" m= "20px auto" >
       <Slider {...settings}>
         {topData.map((el) => {
           return (
             <Box _hover={{ cursor: "pointer" }}>
-              <img
+              <Img
                 src={el.image}
                 alt=""
-                style={{ width: "100%", height: "450px" }}
+                w="100%" h="450px"
               />
             </Box>
-          );
+          )
         })}
       </Slider>
-    </div>
+    </Box>
   );
 };
 

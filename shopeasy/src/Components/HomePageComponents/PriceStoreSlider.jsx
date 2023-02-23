@@ -22,7 +22,7 @@ const PriceStoreSlider = () => {
       focusOnSelect: true,
     };
   return (
-    <div style={{ width: "80%", margin: "auto" }}>
+    <Box w="90%" m="20px auto" >
       <Slider {...settings}>
         {pricestoreproddata.map((el) => {
           return (
@@ -36,7 +36,7 @@ const PriceStoreSlider = () => {
           );
         })}
       </Slider>
-    </div>
+    </Box>
   );
 };
 

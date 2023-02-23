@@ -6,7 +6,7 @@ const HotProducts = () => {
   let cominghotproddata = cominghotprod_data.coming_hot_prod;
   return (
     <Box w={"90%"} m={"auto"}>
-      <Grid templateColumns="repeat(4, 1fr)">
+      <Grid templateColumns="repeat(4, 1fr)" gap={6}>
         {cominghotproddata.map((elem) => {
           return (
             <GridItem _hover={{ cursor: "pointer" }}>

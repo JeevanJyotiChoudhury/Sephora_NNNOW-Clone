@@ -1,20 +1,23 @@
 import React from "react";
 import extradiscount_data from "../../db.json";
-import { Box, Grid, GridItem, Image } from "@chakra-ui/react";
+import { Box, Flex, Grid, GridItem, Image } from "@chakra-ui/react";
 
 const ExtraDiscount = () => {
   let extradiscountdata = extradiscount_data.extra_discount;
   return (
-    <Box w={"90%"} m={"auto"}>
-      <Grid templateColumns="repeat(4, 1fr)">
+    <Box w={"90%"} m={"20px auto"} >
+      <Flex justify="space-between">
         {extradiscountdata.map((elem) => {
           return (
-            <GridItem _hover={{ cursor: "pointer" }}>
+            <Box
+              _hover={{ cursor: "pointer" }}
+              w="25%"
+            >
               <Image src={elem.image} alt="" />
-            </GridItem>
+            </Box>
           );
         })}
-      </Grid>
+      </Flex>
     </Box>
   );
 };

@@ -6,7 +6,7 @@ const BigBeautyProd = () => {
   let bigbeautyproddata = bigbeautyprod_data.big_beauty_prod;
   return (
     <Box w={"90%"} m={"auto"}>
-      <Grid templateColumns="repeat(4, 1fr)">
+      <Grid templateColumns="repeat(4, 1fr)" gap={6}>
         {bigbeautyproddata.map((elem) => {
           return (
             <GridItem _hover={{ cursor: "pointer" }}>
