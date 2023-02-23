@@ -10,14 +10,6 @@ import {
   Stack,
   Checkbox,
   Select,
-  useDisclosure,
-  Modal,
-  ModalOverlay,
-  ModalContent,
-  ModalHeader,
-  ModalFooter,
-  ModalBody,
-  ModalCloseButton,
   Button,
   Card,
   Menu,
@@ -34,7 +26,6 @@ import { Link } from "react-router-dom";
 import IndividualproductPage from "./IndividualproductPage";
 
 const ProductPage = () => {
-  const { isOpen, onOpen, onClose } = useDisclosure();
   let allproductsdata = mensproducts_data.mens;
   const [data, setData] = useState(allproductsdata);
   const [sortData, setSortData] = useState(allproductsdata);
@@ -157,208 +148,249 @@ const ProductPage = () => {
         </Box>
       </Flex>
       <Flex>
-        <Box w={"20%"}>
-          <Box style={{ margin: "20px" }}>
-            <Box className="brandfilter">
-              <h1
-                style={{
-                  textAlign: "left",
-                  padding: "10px 0px 10px 20px",
-                  backgroundColor: "#eeeeee",
-                  marginBottom: "10px",
-                }}
-              >
-                Brand
-              </h1>
-              <Stack spacing={[3]} direction={["column"]}>
-                <Checkbox
-                  size="md"
-                  colorScheme="red"
-                  value="I Bears"
-                  onChange={handleFilter}
-                >
-                  I Bears
-                </Checkbox>
-                <Checkbox
-                  size="md"
-                  colorScheme="red"
-                  value="Carter's"
-                  onChange={handleFilter}
-                >
-                  Carter's
-                </Checkbox>
-                <Checkbox
-                  size="md"
-                  colorScheme="red"
-                  value="ToffyHouse"
-                  onChange={handleFilter}
-                >
-                  ToffyHouse
-                </Checkbox>
-                <Checkbox
-                  size="md"
-                  colorScheme="red"
-                  value="Spunkies"
-                  onChange={handleFilter}
-                >
-                  Spunkies
-                </Checkbox>
-                <Checkbox
-                  size="md"
-                  colorScheme="red"
-                  value="Babyhug"
-                  onChange={handleFilter}
-                >
-                  Babyhug
-                </Checkbox>
-                <Checkbox
-                  size="md"
-                  colorScheme="red"
-                  value="Pine"
-                  onChange={handleFilter}
-                >
-                  Pine
-                </Checkbox>
-                <Checkbox
-                  size="md"
-                  colorScheme="red"
-                  value="Kookie"
-                  onChange={handleFilter}
-                >
-                  Kookie
-                </Checkbox>
-                <Checkbox
-                  size="md"
-                  colorScheme="red"
-                  value="Babyoye"
-                  onChange={handleFilter}
-                >
-                  Babyoye
-                </Checkbox>
-              </Stack>
-            </Box>
-            <Box className="brandfilter">
-              <h1
-                style={{
-                  textAlign: "left",
-                  padding: "10px 0px 10px 20px",
-                  backgroundColor: "#eeeeee",
-                  marginBottom: "10px",
-                }}
-              >
-                Color
-              </h1>
-              <Stack spacing={[1]} direction={["column"]}>
-                <Checkbox
-                  size="md"
-                  colorScheme="red"
-                  value="Multicolor"
-                  onChange={handleFilter}
-                >
-                  Multicolor
-                </Checkbox>
-                <Checkbox
-                  size="md"
-                  colorScheme="red"
-                  value="Sky"
-                  onChange={handleFilter}
-                >
-                  Sky
-                </Checkbox>
-                <Checkbox
-                  size="md"
-                  colorScheme="red"
-                  value="Blue"
-                  onChange={handleFilter}
-                >
-                  Blue
-                </Checkbox>
-                <Checkbox
-                  size="md"
-                  colorScheme="red"
-                  value="White"
-                  onChange={handleFilter}
-                >
-                  White
-                </Checkbox>
-                <Checkbox
-                  size="md"
-                  colorScheme="red"
-                  value="Yellow"
-                  onChange={handleFilter}
-                >
-                  Yellow
-                </Checkbox>
-                <Checkbox
-                  size="md"
-                  colorScheme="red"
-                  value="Orange"
-                  onChange={handleFilter}
-                >
-                  Orange
-                </Checkbox>
-              </Stack>
-            </Box>
-            <Box className="brandfilter">
-              <h1
-                style={{
-                  textAlign: "left",
-                  padding: "10px 0px 10px 20px",
-                  backgroundColor: "#eeeeee",
-                  marginBottom: "10px",
-                }}
-              >
-                Sleeve
-              </h1>
-              <Stack spacing={[1]} direction={["column"]}>
-                <Checkbox
-                  size="md"
-                  colorScheme="red"
-                  value="Full sleeve"
-                  onChange={handleFilter}
-                >
-                  Full sleeve
-                </Checkbox>
-                <Checkbox
-                  size="md"
-                  colorScheme="red"
-                  value="Half sleeve"
-                  onChange={handleFilter}
-                >
-                  Half sleeve
-                </Checkbox>
-              </Stack>
-            </Box>
-            <Box className="brandfilter">
-              <h1
-                style={{
-                  textAlign: "left",
-                  padding: "10px 0px 10px 20px",
-                  backgroundColor: "#eeeeee",
-                  marginBottom: "10px",
-                }}
-              >
-                Category
-              </h1>
-              <Stack spacing={[1]} direction={["column"]}>
-                <Checkbox
-                  size="md"
-                  colorScheme="red"
-                  value="pyjama"
-                  onChange={handleFilter}
-                >
-                  Pyjama
-                </Checkbox>
-                <Checkbox
-                  size="md"
-                  colorScheme="red"
-                  value="suit"
-                  onChange={handleFilter}
-                >
-                  Suit
-                </Checkbox>
-              </Stack>
-            </Box>
+        <Box w={"20%"} border={"1px solid black"}>
+          <Box style={{ margin: "20px" }} border={"1px solid red"}>
+            <Menu>
+              <MenuButton as={Button}>Brand</MenuButton>
+              <MenuList>
+                <Stack spacing={[3]} direction={["column"]}>
+                  <Checkbox
+                    size="md"
+                    colorScheme="red"
+                    value="U.S. Polo Assn."
+                    onChange={handleFilter}
+                  >
+                    U.S. Polo Assn.
+                  </Checkbox>
+                  <Checkbox
+                    size="md"
+                    colorScheme="red"
+                    value="Carter's"
+                    onChange={handleFilter}
+                  >
+                    Carter's
+                  </Checkbox>
+                  <Checkbox
+                    size="md"
+                    colorScheme="red"
+                    value="ToffyHouse"
+                    onChange={handleFilter}
+                  >
+                    ToffyHouse
+                  </Checkbox>
+                  <Checkbox
+                    size="md"
+                    colorScheme="red"
+                    value="Spunkies"
+                    onChange={handleFilter}
+                  >
+                    Spunkies
+                  </Checkbox>
+                  <Checkbox
+                    size="md"
+                    colorScheme="red"
+                    value="Babyhug"
+                    onChange={handleFilter}
+                  >
+                    Babyhug
+                  </Checkbox>
+                  <Checkbox
+                    size="md"
+                    colorScheme="red"
+                    value="Pine"
+                    onChange={handleFilter}
+                  >
+                    Pine
+                  </Checkbox>
+                  <Checkbox
+                    size="md"
+                    colorScheme="red"
+                    value="Kookie"
+                    onChange={handleFilter}
+                  >
+                    Kookie
+                  </Checkbox>
+                  <Checkbox
+                    size="md"
+                    colorScheme="red"
+                    value="Babyoye"
+                    onChange={handleFilter}
+                  >
+                    Babyoye
+                  </Checkbox>
+                </Stack>
+              </MenuList>
+            </Menu>
+            <Menu>
+              <MenuButton as={Button}>Color</MenuButton>
+              <MenuList>
+                <Stack spacing={[1]} direction={["column"]}>
+                  <Checkbox
+                    size="md"
+                    colorScheme="red"
+                    value="Multicolor"
+                    onChange={handleFilter}
+                  >
+                    Multicolor
+                  </Checkbox>
+                  <Checkbox
+                    size="md"
+                    colorScheme="red"
+                    value="Sky"
+                    onChange={handleFilter}
+                  >
+                    Sky
+                  </Checkbox>
+                  <Checkbox
+                    size="md"
+                    colorScheme="red"
+                    value="Blue"
+                    onChange={handleFilter}
+                  >
+                    Blue
+                  </Checkbox>
+                  <Checkbox
+                    size="md"
+                    colorScheme="red"
+                    value="White"
+                    onChange={handleFilter}
+                  >
+                    White
+                  </Checkbox>
+                  <Checkbox
+                    size="md"
+                    colorScheme="red"
+                    value="Yellow"
+                    onChange={handleFilter}
+                  >
+                    Yellow
+                  </Checkbox>
+                  <Checkbox
+                    size="md"
+                    colorScheme="red"
+                    value="Orange"
+                    onChange={handleFilter}
+                  >
+                    Orange
+                  </Checkbox>
+                </Stack>
+              </MenuList>
+            </Menu>
+            <Menu>
+              <MenuButton as={Button}>Sleeve</MenuButton>
+              <MenuList>
+                <Stack spacing={[1]} direction={["column"]}>
+                  <Checkbox
+                    size="md"
+                    colorScheme="red"
+                    value="Full sleeve"
+                    onChange={handleFilter}
+                  >
+                    Full sleeve
+                  </Checkbox>
+                  <Checkbox
+                    size="md"
+                    colorScheme="red"
+                    value="Half sleeve"
+                    onChange={handleFilter}
+                  >
+                    Half sleeve
+                  </Checkbox>
+                </Stack>
+              </MenuList>
+            </Menu>
+            <Menu>
+              <MenuButton as={Button}>Category</MenuButton>
+              <MenuList>
+                <Stack spacing={[1]} direction={["column"]}>
+                  <Checkbox
+                    size="md"
+                    colorScheme="red"
+                    value="pyjama"
+                    onChange={handleFilter}
+                  >
+                    Pyjama
+                  </Checkbox>
+                  <Checkbox
+                    size="md"
+                    colorScheme="red"
+                    value="suit"
+                    onChange={handleFilter}
+                  >
+                    Suit
+                  </Checkbox>
+                </Stack>
+              </MenuList>
+            </Menu>
+            <Menu>
+              <MenuButton as={Button}>Neck</MenuButton>
+              <MenuList>
+                <Stack spacing={[1]} direction={["column"]}>
+                  <Checkbox
+                    size="md"
+                    colorScheme="red"
+                    value="pyjama"
+                    onChange={handleFilter}
+                  >
+                    Pyjama
+                  </Checkbox>
+                  <Checkbox
+                    size="md"
+                    colorScheme="red"
+                    value="suit"
+                    onChange={handleFilter}
+                  >
+                    Suit
+                  </Checkbox>
+                </Stack>
+              </MenuList>
+            </Menu>
+            <Menu>
+              <MenuButton as={Button}>Rating</MenuButton>
+              <MenuList>
+                <Stack spacing={[1]} direction={["column"]}>
+                  <Checkbox
+                    size="md"
+                    colorScheme="red"
+                    value="pyjama"
+                    onChange={handleFilter}
+                  >
+                    Pyjama
+                  </Checkbox>
+                  <Checkbox
+                    size="md"
+                    colorScheme="red"
+                    value="suit"
+                    onChange={handleFilter}
+                  >
+                    Suit
+                  </Checkbox>
+                </Stack>
+              </MenuList>
+            </Menu>
+            <Menu>
+              <MenuButton as={Button}>Pattern</MenuButton>
+              <MenuList>
+                <Stack spacing={[1]} direction={["column"]}>
+                  <Checkbox
+                    size="md"
+                    colorScheme="red"
+                    value="pyjama"
+                    onChange={handleFilter}
+                  >
+                    Pyjama
+                  </Checkbox>
+                  <Checkbox
+                    size="md"
+                    colorScheme="red"
+                    value="suit"
+                    onChange={handleFilter}
+                  >
+                    Suit
+                  </Checkbox>
+                </Stack>
+              </MenuList>
+            </Menu>
           </Box>
         </Box>
         <Box w={"80%"}>
@@ -402,28 +434,9 @@ const ProductPage = () => {
                       colorScheme="teal"
                       variant="solid"
                       mt={"15px"}
-                      onClick={onOpen}
                     >
-                      Add to cart
+                      <Link to={`/products/${el.id}`}>Add to Cart</Link>
                     </Button>
-                    <Modal isOpen={isOpen} onClose={onClose}>
-                      <ModalOverlay />
-                      <ModalContent>
-                        <ModalHeader>Modal Title</ModalHeader>
-                        <ModalCloseButton />
-                        <ModalBody>
-                          <Link to={`/products/${el.id}`}>
-                            <IndividualproductPage />
-                          </Link>
-                        </ModalBody>
-
-                        <ModalFooter>
-                          <Button colorScheme="blue" mr={3} onClick={onClose}>
-                            Close
-                          </Button>
-                        </ModalFooter>
-                      </ModalContent>
-                    </Modal>
                   </Card>
                 </GridItem>
               );
