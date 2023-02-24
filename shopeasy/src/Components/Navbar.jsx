@@ -3,9 +3,16 @@ import { Link, Navigate, useNavigate } from "react-router-dom";
 import { HiOutlineShoppingBag } from "react-icons/hi";
 import { FiSearch, FiHeart } from "react-icons/fi";
 import { RiContactsLine } from "react-icons/ri";
-import { useState } from "react";
+import { useRef, useState } from "react";
+import { useDisclosure } from "@chakra-ui/react";
+import CartPage from "./Pages/CartPage";
 export const Navbar = () => {
   const [ishover, setHover] = useState(false);
+  const { isOpen, onOpen, onClose } = useDisclosure();
+  
+    const btnRef = useRef();
+
+
   const handleCart = () => {
   };
   const logouter = () => {
@@ -48,8 +55,21 @@ export const Navbar = () => {
                 <FiHeart fontSize={"22px"} />
               </li>
               <li>|</li>
-              <li onClick={() => handleCart()} style={{ cursor: "pointer" }}>
+              <li
+                ref={btnRef}
+                colorScheme="teal"
+                onClick={onOpen}
+                
+                style={{ cursor: "pointer" }}
+              >
                 <HiOutlineShoppingBag fontSize={"22px"} />
+                <CartPage
+                  btnRef={btnRef}
+                  isOpen={isOpen}
+                  onOpen={onOpen}
+                  onClose={onClose}
+                  
+                />
               </li>
               <li>|</li>
 

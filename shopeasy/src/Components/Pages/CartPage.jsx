@@ -10,42 +10,34 @@ import {
   Input,
   Button,
   useDisclosure,
+  Box,
 } from "@chakra-ui/react";
+import Cart from './Cart';
 
-const CartPage = () => {
-    const { isOpen, onOpen, onClose } = useDisclosure();
-    const btnRef = React.useRef();
+const CartPage = ({ isOpen, onOpen, onClose, btnRef }) => {
+  return (
+    <>
+      <Drawer
+        isOpen={isOpen}
+        placement="right"
+        onClose={onClose}
+        finalFocusRef={btnRef}
+        w={"300px"}
+      >
+        <DrawerOverlay />
+        <DrawerContent>
+          <DrawerCloseButton />
+          <DrawerHeader>MY BAG</DrawerHeader>
 
-    return (
-      <>
-        <Button ref={btnRef} colorScheme="teal" onClick={onOpen}>
-          Open
-        </Button>
-        <Drawer
-          isOpen={isOpen}
-          placement="right"
-          onClose={onClose}
-          finalFocusRef={btnRef}
-        >
-          <DrawerOverlay />
-          <DrawerContent>
-            <DrawerCloseButton />
-            <DrawerHeader>Create your account</DrawerHeader>
+          <DrawerBody>
+            <Cart />
+          </DrawerBody>
 
-            <DrawerBody>
-              <Input placeholder="Type here..." />
-            </DrawerBody>
-
-            <DrawerFooter>
-              <Button variant="outline" mr={3} onClick={onClose}>
-                Cancel
-              </Button>
-              <Button colorScheme="blue">Save</Button>
-            </DrawerFooter>
-          </DrawerContent>
-        </Drawer>
-      </>
-    );
-}
+          
+        </DrawerContent>
+      </Drawer>
+    </>
+  );
+};
 
 export default CartPage
