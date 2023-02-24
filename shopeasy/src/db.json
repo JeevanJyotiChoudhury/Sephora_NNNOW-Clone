@@ -1,214 +1,126 @@
 {
   "top_slider": [
     {
-      "image": "https://logan.nnnow.com/content/dam/nnnow-project/20-feb-2023/hp/21FEB23-HP-TB-USPA-FM-ARROW-DSK.jpg"
+      "image": "https://logan.nnnow.com/content/dam/nnnow-project/14-feb-2023/DrDennis_HomePageBanner_Desktop.jpg"
     },
     {
-      "image": "https://logan.nnnow.com/content/dam/nnnow-project/20-feb-2023/hp/21FEB23-HP-TB-TH-CK-DSK.jpg"
+      "image": "https://logan.nnnow.com/content/dam/nnnow-project/22-feb-2023/SC_Holidaycollection_HPBanner_Desktop(1).jpg"
     },
     {
-      "image": "https://logan.nnnow.com/content/dam/nnnow-project/20-feb-2023/hp/21FEB23-PerformanceMeetsStyle-FashionStory-DSK.jpg"
+      "image": "https://logan.nnnow.com/content/dam/nnnow-project/08-feb-2023/se/ND_TopBannerdesktop.jpg"
     },
     {
-      "image": "https://logan.nnnow.com/content/dam/nnnow-project/20-feb-2023/hp/21FEB23-SpringPreview-FashionStory-HP-DSK.jpg"
+      "image": "https://logan.nnnow.com/content/dam/nnnow-project/23-feb-2023/DearDahlia_OfferPageBanner_Desktop.jpg"
+    },
+    {
+      "image": "https://logan.nnnow.com/content/dam/nnnow-project/15-feb-2023/Smashbox_TopBanner_Desktop.jpg"
     }
   ],
-  "special_offer": [
+  "special_category": [
     {
-      "image": "https://logan.nnnow.com/content/dam/nnnow-project/20-feb-2023/hp/21FEB23-FM-DOD-DSK.jpg"
+      "image": "https://logan.nnnow.com/content/dam/nnnow-project/25-march-2021/25MAR21_SEPHORA_BP_DESK_Q1.jpg"
+    },
+    {
+      "image": "https://logan.nnnow.com/content/dam/nnnow-project/25-march-2021/25MAR21_SEPHORA_BP_DESK_Q2.jpg"
+    },
+    {
+      "image": "https://logan.nnnow.com/content/dam/nnnow-project/25-march-2021/25MAR21_SEPHORA_BP_DESK_Q3.jpg"
+    },
+    {
+      "image": "https://logan.nnnow.com/content/dam/nnnow-project/10-may-2021/25MAR21_SEPHORA_BP_DESK_Q4.jpg"
+    },
+    {
+      "image": "https://logan.nnnow.com/content/dam/nnnow-project/25-march-2021/25MAR21_SEPHORA_BP_DESK_Q5.jpg"
+    },
+    {
+      "image": "https://logan.nnnow.com/content/dam/nnnow-project/08-may-2021/7MAY21_SEPHORA_BP_Q6.jpg"
     }
   ],
-  "best_seller": [
+  "botw": [
     {
-      "image": "https://logan.nnnow.com/content/dam/nnnow-project/14-feb-2023/hp/23NOV22-HP-BESTSELLERS-DSK.jpg"
+      "image": "https://logan.nnnow.com/content/dam/nnnow-project/07-nov-2022/Header_Desk.jpg"
     }
   ],
-  "iconic_styles": [
+  "botw_brands": [
     {
-      "image": "https://logan.nnnow.com/content/dam/nnnow-project/14-feb-2023/hp/14FEB23-HP-TB-ICONICSTYLES-DSK.jpg"
+      "image": "https://logan.nnnow.com/content/dam/nnnow-project/22-feb-2023/ABH_BOTW_Tile-01.jpg"
+    },
+    {
+      "image": "https://logan.nnnow.com/content/dam/nnnow-project/22-feb-2023/ABH_BOTW_Tile-02.jpg"
+    },
+    {
+      "image": "https://logan.nnnow.com/content/dam/nnnow-project/22-feb-2023/ABH_BOTW_Tile-03.jpg"
     }
   ],
-  "coupon_corner": [
+  "beauty_pass": [
     {
-      "image": "https://logan.nnnow.com/content/dam/nnnow-project/14-feb-2023/hp/headers/CouponCorner-DSK.jpg"
+      "image": "https://logan.nnnow.com/content/dam/nnnow-project/22-march-2022/Loyalty_Strip_Desk.jpg"
     }
   ],
-  "extra_discount": [
+  "spring_essentials": [
     {
-      "image": "https://logan.nnnow.com/content/dam/nnnow-project/14-feb-2023/hp/ATV-1copy4-re.jpg"
-    },
-    {
-      "image": "https://logan.nnnow.com/content/dam/nnnow-project/14-feb-2023/hp/ATV-1copy5-re.jpg"
-    },
-    {
-      "image": "https://logan.nnnow.com/content/dam/nnnow-project/14-feb-2023/hp/ATV-1copy6-re.jpg"
+      "image": "https://logan.nnnow.com/content/dam/nnnow-project/15-feb-2023/Sephora_HeaderStrip_SpringEssentials_text_Desktop_3310x240.jpg"
     }
   ],
-  "flat_off": [
+  "spring_essentials_data": [
     {
-      "image": "https://logan.nnnow.com/content/dam/nnnow-project/15-feb-2023/hp/16FEB23-DownloadtheApp-Thickstrip-Desk.jpg"
+      "image": "https://logan.nnnow.com/content/dam/nnnow-project/15-feb-2023/P1.jpg"
+    },
+    {
+      "image": "https://logan.nnnow.com/content/dam/nnnow-project/15-feb-2023/P2.jpg"
+    },
+    {
+      "image": "https://logan.nnnow.com/content/dam/nnnow-project/15-feb-2023/P3.jpg"
     }
   ],
-  "big_beauty": [
+  "fav_brands": [
     {
-      "image": "https://logan.nnnow.com/content/dam/nnnow-project/14-feb-2023/hp/headers/BigonBeauty-DSK.jpg"
+      "image": "https://logan.nnnow.com/content/dam/nnnow-project/01-oct-2020/sephora/2OCT20_PREHEADER_4_DESK.jpg"
     }
   ],
-  "big_beauty_prod": [
+  "fav_brands_data": [
     {
-      "image": "https://logan.nnnow.com/content/dam/nnnow-project/14-feb-2023/hp/SC-Brandstory-re.jpg"
+      "image": "https://logan.nnnow.com/content/dam/nnnow-project/17-jan-2020/logo-dsk/scdsk.jpeg"
     },
     {
-      "image": "https://logan.nnnow.com/content/dam/nnnow-project/16-feb-2023/hp/IKOO-Brandstory.jpg"
+      "image": "https://logan.nnnow.com/content/dam/nnnow-project/11-oct-2021-/12OCT21-TILE-MUFE(1).jpg"
     },
     {
-      "image": "https://logan.nnnow.com/content/dam/nnnow-project/20-feb-2023/hp/JuiceBeauty-Brandstory.jpg"
+      "image": "https://logan.nnnow.com/content/dam/nnnow-project/17-jan-2020/logo-dsk/bendsk.jpg"
     },
     {
-      "image": "https://logan.nnnow.com/content/dam/nnnow-project/14-feb-2023/hp/ABH-Brandstory-re.jpg"
+      "image": "https://logan.nnnow.com/content/dam/nnnow-project/05-jan-2022/TF_Logo(1).jpg"
+    },
+    {
+      "image": "https://logan.nnnow.com/content/dam/nnnow-project/03-jan-2022/se/Lancome_Logo(1).jpeg"
+    },
+    {
+      "image": "https://logan.nnnow.com/content/dam/nnnow-project/17-jan-2020/logo-dsk/HDdesk.jpg"
     }
   ],
-  "price_store": [
+  "new_on_the_block": [
     {
-      "image": "https://logan.nnnow.com/content/dam/nnnow-project/14-feb-2023/hp/headers/ThePriceStore-DSK.jpg"
+      "image": "https://logan.nnnow.com/content/dam/nnnow-project/01-oct-2020/sephora/2OCT20_PREHEADER_5_DESK.jpg"
     }
   ],
-  "price_store_prod": [
+  "new_on_the_block_data": [
     {
-      "image": "https://logan.nnnow.com/content/dam/nnnow-project/14-feb-2023/hp/UNDER399.jpg"
+      "image": "https://logan.nnnow.com/content/dam/nnnow-project/10-jan-2023/SC_NOTB_01.jpg"
     },
     {
-      "image": "https://logan.nnnow.com/content/dam/nnnow-project/14-feb-2023/hp/UNDER799.jpg"
+      "image": "https://logan.nnnow.com/content/dam/nnnow-project/13-jan-2023/Mac_NOTB.jpg"
     },
     {
-      "image": "https://logan.nnnow.com/content/dam/nnnow-project/14-feb-2023/hp/UNDER1199.jpg"
+      "image": "https://logan.nnnow.com/content/dam/nnnow-project/14-feb-2023/ABH_NOTB_RoshniBhatia.jpg"
     },
     {
-      "image": "https://logan.nnnow.com/content/dam/nnnow-project/14-feb-2023/hp/UNDER2499.jpg"
+      "image": "https://logan.nnnow.com/content/dam/nnnow-project/05-jan-2023/Smashbox_NOTB.jpg"
     },
     {
-      "image": "https://logan.nnnow.com/content/dam/nnnow-project/14-feb-2023/hp/UNDER2999.jpg"
-    }
-  ],
-  "bank_slider": [
-    {
-      "image": "https://logan.nnnow.com/content/dam/nnnow-project/20-jan-2023/hp/19JAN22-YONOSBI-TC-STRIP-DSK.jpg"
+      "image": "https://logan.nnnow.com/content/dam/nnnow-project/09-feb-2023/Prada-NOTB.jpg"
     },
     {
-      "image": "https://logan.nnnow.com/content/dam/nnnow-project/06-dec-2022/hp/1NOV22-STRIP-MOBIKWIK-DSK.jpg"
-    },
-    {
-      "image": "https://logan.nnnow.com/content/dam/nnnow-project/06-dec-2022/hp/1NOV22-Citibank-TC-HP-STRIP-DSK.jpg"
-    }
-  ],
-  "coming_hot": [
-    {
-      "image": "https://logan.nnnow.com/content/dam/nnnow-project/14-feb-2023/hp/headers/CominginHot-DSK.jpg"
-    }
-  ],
-  "coming_hot_prod": [
-    {
-      "image": "https://logan.nnnow.com/content/dam/nnnow-project/14-feb-2023/hp/USPAKIDS-Brandstory.jpg"
-    },
-    {
-      "image": "https://logan.nnnow.com/content/dam/nnnow-project/14-feb-2023/hp/TH-Brandstory.jpg"
-    },
-    {
-      "image": "https://logan.nnnow.com/content/dam/nnnow-project/14-feb-2023/hp/USPA-Brandstory-re.jpg"
-    },
-    {
-      "image": "https://logan.nnnow.com/content/dam/nnnow-project/20-feb-2023/hp/FM-Brandstory.jpg"
-    }
-  ],
-  "uspa": [
-    {
-      "image": "https://logan.nnnow.com/content/dam/nnnow-project/14-feb-2023/hp/15FEB23-USPA-INNERSTRIP-DSK2x.jpg"
-    }
-  ],
-  "ck": [
-    {
-      "image": "https://logan.nnnow.com/content/dam/nnnow-project/03-feb-2023/hp/6th/strips/CKstrip-DSK2x-re.jpg"
-    }
-  ],
-  "more_offers": [
-    {
-      "image": "https://logan.nnnow.com/content/dam/nnnow-project/14-feb-2023/hp/headers/MoreOffers-DSK.jpg"
-    }
-  ],
-  "more_offers_prod": [
-    {
-      "image": "https://logan.nnnow.com/content/dam/nnnow-project/14-feb-2023/hp/POLO-DEAL.jpg"
-    },
-    {
-      "image": "https://logan.nnnow.com/content/dam/nnnow-project/14-feb-2023/hp/SHIRTS-DEAL.jpg"
-    },
-    {
-      "image": "https://logan.nnnow.com/content/dam/nnnow-project/14-feb-2023/hp/TROUSERS-DEAL-re.jpg"
-    },
-    {
-      "image": "https://logan.nnnow.com/content/dam/nnnow-project/14-feb-2023/hp/Jeans-DEAL.jpg"
-    }
-  ],
-  "customer_test": [
-    {
-      "image": "https://logan.nnnow.com/content/dam/nnnow-project/14-feb-2023/hp/headers/CustomerTestimonials-DSK.jpg"
-    }
-  ],
-  "customer_test_prod": [
-    {
-      "image": "https://logan.nnnow.com/content/dam/nnnow-project/20-jan-2023/hp/20JAN23-Testimonial-HP-Creative-01.jpg"
-    },
-    {
-      "image": "https://logan.nnnow.com/content/dam/nnnow-project/20-jan-2023/hp/20JAN23-Testimonial-HP-Creative-02.jpg"
-    },
-    {
-      "image": "https://logan.nnnow.com/content/dam/nnnow-project/20-jan-2023/hp/20JAN23-Testimonial-HP-Creative-03.jpg"
-    },
-    {
-      "image": "https://logan.nnnow.com/content/dam/nnnow-project/20-jan-2023/hp/20JAN23-Testimonial-HP-Creative-04.jpg"
-    },
-    {
-      "image": "https://logan.nnnow.com/content/dam/nnnow-project/20-jan-2023/hp/20JAN23-Testimonial-HP-Creative-05.jpg"
-    },
-    {
-      "image": "https://logan.nnnow.com/content/dam/nnnow-project/14-feb-2023/hp/15FEB23-Testimonial-HP-Creative-06-re.jpg"
-    },
-    {
-      "image": "https://logan.nnnow.com/content/dam/nnnow-project/13-feb-2023/hp/13FEB23-Testimonial-HP-Creative-07.jpg"
-    },
-    {
-      "image": "https://logan.nnnow.com/content/dam/nnnow-project/13-feb-2023/hp/13FEB23-Testimonial-HP-Creative-08.jpg"
-    }
-  ],
-  "top_brands": [
-    {
-      "image": "https://logan.nnnow.com/content/dam/nnnow-project/14-feb-2023/hp/headers/TopBrands-DSK.jpg"
-    }
-  ],
-  "top_brands_prod": [
-    {
-      "image": "https://logan.nnnow.com/content/dam/nnnow-project/14-feb-2023/hp/TOPBRANDSUSPA.jpg"
-    },
-    {
-      "image": "https://logan.nnnow.com/content/dam/nnnow-project/14-feb-2023/hp/TOPBRANDSTH.jpg"
-    },
-    {
-      "image": "https://logan.nnnow.com/content/dam/nnnow-project/14-feb-2023/hp/TOPBRANDSCK.jpg"
-    },
-    {
-      "image": "https://logan.nnnow.com/content/dam/nnnow-project/14-feb-2023/hp/TOPBRANDSSEPHORA.jpg"
-    },
-    {
-      "image": "https://logan.nnnow.com/content/dam/nnnow-project/14-feb-2023/hp/TOPBRANDSFM.jpg"
-    },
-    {
-      "image": "https://logan.nnnow.com/content/dam/nnnow-project/14-feb-2023/hp/TOPBRANDSARROW-re.jpg"
-    },
-    {
-      "image": "https://logan.nnnow.com/content/dam/nnnow-project/14-feb-2023/hp/TOPBRANDSAERO.jpg"
-    },
-    {
-      "image": "https://logan.nnnow.com/content/dam/nnnow-project/14-feb-2023/hp/TOPBRANDSAD.jpg"
+      "image": "https://logan.nnnow.com/content/dam/nnnow-project/04-jan-2023/se/OneSize_NOTB.jpg"
     }
   ]
 }
