@@ -19,7 +19,7 @@ const BankSlider = () => {
       focusOnSelect: true,
     };
   return (
-    <div style={{ width: "80%", margin: "auto" }}>
+    <div style={{ width: "90%", margin: "auto" }}>
       <Slider {...settings}>
         {banksliderdata.map((el) => {
           return (

@@ -24,6 +24,12 @@ import {
 import { CgShoppingCart } from "react-icons/cg";
 import { Link } from "react-router-dom";
 import IndividualproductPage from "./IndividualproductPage";
+import {
+  ArrowRightIcon,
+  ChevronDownIcon,
+  ChevronRightIcon,
+} from "@chakra-ui/icons";
+import { HiOutlineShoppingBag } from "react-icons/hi";
 
 const ProductPage = () => {
   let allproductsdata = mensproducts_data.mens;
@@ -148,11 +154,23 @@ const ProductPage = () => {
         </Box>
       </Flex>
       <Flex>
-        <Box w={"20%"} border={"1px solid black"}>
-          <Box style={{ margin: "20px" }} border={"1px solid red"}>
+        <Box w={"20%"}>
+          <Text as="b" fontSize="lg" textAlign={"left"}>
+            FILTER BY
+          </Text>{" "}
+          <Flex style={{ margin: "20px" }} flexDirection={"column"}>
             <Menu>
-              <MenuButton as={Button}>Brand</MenuButton>
-              <MenuList>
+              <MenuButton
+                as={Button}
+                rightIcon={<ChevronRightIcon fontSize={"28px"} />}
+                border="2px solid black"
+                my={2}
+                borderRadius={"none"}
+                textAlign="left"
+              >
+                Brand
+              </MenuButton>
+              <MenuList p={3}>
                 <Stack spacing={[3]} direction={["column"]}>
                   <Checkbox
                     size="md"
@@ -222,8 +240,17 @@ const ProductPage = () => {
               </MenuList>
             </Menu>
             <Menu>
-              <MenuButton as={Button}>Color</MenuButton>
-              <MenuList>
+              <MenuButton
+                as={Button}
+                rightIcon={<ChevronRightIcon fontSize={"28px"} />}
+                border="2px solid black"
+                my={2}
+                borderRadius={"none"}
+                textAlign="left"
+              >
+                Color
+              </MenuButton>
+              <MenuList p={3}>
                 <Stack spacing={[1]} direction={["column"]}>
                   <Checkbox
                     size="md"
@@ -277,8 +304,17 @@ const ProductPage = () => {
               </MenuList>
             </Menu>
             <Menu>
-              <MenuButton as={Button}>Sleeve</MenuButton>
-              <MenuList>
+              <MenuButton
+                as={Button}
+                rightIcon={<ChevronRightIcon fontSize={"28px"} />}
+                border="2px solid black"
+                my={2}
+                borderRadius={"none"}
+                textAlign="left"
+              >
+                Sleeve
+              </MenuButton>
+              <MenuList p={3}>
                 <Stack spacing={[1]} direction={["column"]}>
                   <Checkbox
                     size="md"
@@ -300,8 +336,17 @@ const ProductPage = () => {
               </MenuList>
             </Menu>
             <Menu>
-              <MenuButton as={Button}>Category</MenuButton>
-              <MenuList>
+              <MenuButton
+                as={Button}
+                rightIcon={<ChevronRightIcon fontSize={"28px"} />}
+                border="2px solid black"
+                my={2}
+                borderRadius={"none"}
+                textAlign="left"
+              >
+                Category
+              </MenuButton>
+              <MenuList p={3}>
                 <Stack spacing={[1]} direction={["column"]}>
                   <Checkbox
                     size="md"
@@ -323,8 +368,17 @@ const ProductPage = () => {
               </MenuList>
             </Menu>
             <Menu>
-              <MenuButton as={Button}>Neck</MenuButton>
-              <MenuList>
+              <MenuButton
+                as={Button}
+                rightIcon={<ChevronRightIcon fontSize={"28px"} />}
+                border="2px solid black"
+                my={2}
+                borderRadius={"none"}
+                textAlign="left"
+              >
+                Neck
+              </MenuButton>
+              <MenuList p={3}>
                 <Stack spacing={[1]} direction={["column"]}>
                   <Checkbox
                     size="md"
@@ -346,8 +400,17 @@ const ProductPage = () => {
               </MenuList>
             </Menu>
             <Menu>
-              <MenuButton as={Button}>Rating</MenuButton>
-              <MenuList>
+              <MenuButton
+                as={Button}
+                rightIcon={<ChevronRightIcon fontSize={"28px"} />}
+                border="2px solid black"
+                my={2}
+                borderRadius={"none"}
+                textAlign="left"
+              >
+                Rating
+              </MenuButton>
+              <MenuList p={3}>
                 <Stack spacing={[1]} direction={["column"]}>
                   <Checkbox
                     size="md"
@@ -369,8 +432,17 @@ const ProductPage = () => {
               </MenuList>
             </Menu>
             <Menu>
-              <MenuButton as={Button}>Pattern</MenuButton>
-              <MenuList>
+              <MenuButton
+                as={Button}
+                rightIcon={<ChevronRightIcon fontSize={"28px"} />}
+                border="2px solid black"
+                my={2}
+                borderRadius={"none"}
+                textAlign="left"
+              >
+                Pattern
+              </MenuButton>
+              <MenuList p={3}>
                 <Stack spacing={[1]} direction={["column"]}>
                   <Checkbox
                     size="md"
@@ -391,51 +463,67 @@ const ProductPage = () => {
                 </Stack>
               </MenuList>
             </Menu>
-          </Box>
+          </Flex>
         </Box>
         <Box w={"80%"}>
-          <Grid templateColumns="repeat(3, 1fr)" gap={8}>
+          <Grid templateColumns="repeat(3, 1fr)">
             {data.map((el) => {
               return (
                 <GridItem
-                  p={"20px"}
+                  p={"10px"}
                   h={"auto"}
-                  _hover={{
-                    boxShadow:
-                      "rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px",
-                  }}
+                  // _hover={{
+                  //   boxShadow:
+                  //     "rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px",
+                  // }}
                 >
-                  <Card>
-                    <Box w={"100%"} h={"80%"} m={"auto"}>
+                  <Card p={3}>
+                    <Box w={"100%"} h={"70%"} m={"auto"}>
                       <Image src={el.image} w={"100%"} h={"100%"} />
                     </Box>
-                    <Text w={"100%"} p={"2% 0"}>
+                    <Flex w={"30%"} mx={"auto"} my={2} justify={"space-evenly"}>
+                      <Image
+                        src="https://cdn02.nnnow.com/web-images/master/product_tags/cb6e9f96-922e-42cb-84ae-9337178f87fa/1554297283453/Sale.png"
+                        h={"22px"}
+                        w="22px"
+                        alt=""
+                      />
+                      <Text as="b" fontSize="sm" color="red">
+                        OFFER
+                      </Text>
+                    </Flex>
+                    <Text as="b" fontSize="sm">
+                      SEPHORA COLLECTION
+                    </Text>
+                    <Text w={"100%"} p={"2% 0"} as="samp" fontSize="xs">
                       {el.description}
                     </Text>
-                    <Flex w={"28%"} justify={"space-between"} pb={"2%"}>
-                      <Text>₹{el.price}</Text>
-                      <Text as="s" color="gray">
-                        ₹{el.strike_price}
+                    <Flex
+                      mx={"auto"}
+                      w={"65%"}
+                      justify={"space-between"}
+                      pb={"2%"}
+                      fontSize="md"
+                    >
+                      <Text as="s">₹{el.strike_price}</Text>
+                      <Text as="b">₹{el.price}</Text>
+                      <Text color="red">
+                        (
+                        {Math.ceil(
+                          ((el.strike_price - el.price) / el.strike_price) * 100
+                        )}
+                        % OFF)
                       </Text>
                     </Flex>
                     <Text>{el.rating} ⭐</Text>
-                    <Flex w={"70%"} justify={"space-between"}>
-                      <Box h="100%" w="20%">
-                        <Image
-                          src="https://cdn.fcglcdn.com/brainbees/images/club_flag_listing_desktop.png"
-                          w={"100%"}
-                        />
-                      </Box>
-                      <Text>Club Price:{+el.price - 20}</Text>
-                    </Flex>
 
                     <Button
-                      leftIcon={<CgShoppingCart />}
+                      leftIcon={<HiOutlineShoppingBag />}
                       colorScheme="teal"
                       variant="solid"
                       mt={"15px"}
                     >
-                      <Link to={`/products/${el.id}`}>Add to Cart</Link>
+                      <Link to={`/products/${el.id}`}>SHOP NNNOW</Link>
                     </Button>
                   </Card>
                 </GridItem>

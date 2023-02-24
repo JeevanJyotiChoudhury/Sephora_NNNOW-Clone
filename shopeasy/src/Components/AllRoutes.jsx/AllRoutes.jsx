@@ -6,12 +6,12 @@ import {Footer} from "../Footer"
 import { Route, Routes } from "react-router-dom";
 import ProductPage from "../Pages/ProductPage";
 import IndividualproductPage from "../Pages/IndividualproductPage";
-import CartPage from "../Pages/CartPage";
 import Checkout from "../Pages/Checkout";
 import Payment from "../Pages/Payment";
 import Signup from "../Pages/Signup";
 import Login from "../Pages/Login";
 import OrderPlaced from "../Pages/OrderPlaced";
+import Mybag from "../Pages/Mybag";
 const AllRoutes = () => {
   return (
     <div>
@@ -21,7 +21,7 @@ const AllRoutes = () => {
         <Route path="/" element={<HomePage />} />
         <Route path="/products" element={<ProductPage />} />
         <Route path="/products/:id" element={<IndividualproductPage />} />
-        <Route path="/cart" element={<CartPage />} />
+        <Route path="/cart" element={<Mybag />} />
         <Route path="/checkout" element={<Checkout />} />
         <Route path="/payment" element={<Payment />} />
         <Route path="/login" element={<Login />} />
