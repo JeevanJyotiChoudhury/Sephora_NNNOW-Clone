@@ -63,76 +63,108 @@ const ProductPage = () => {
 
   const handleFilter = (e) => {
     console.log(e.target.value);
-    if (e.target.value === "I Bears") {
-      let res = filterData.filter((item) => item.brand === "I Bears");
+    if (e.target.value === "HUDA BEAUTY") {
+      let res = filterData.filter((item) => item.brand === "HUDA BEAUTY");
       setData([...res]);
     }
-    if (e.target.value === "Carter's") {
-      let res = filterData.filter((item) => item.brand === "Carter's");
+    if (e.target.value === "Sephora Collection") {
+      let res = filterData.filter(
+        (item) => item.brand === "Sephora Collection"
+      );
       setData([...res]);
     }
-    if (e.target.value === "ToffyHouse") {
-      let res = filterData.filter((item) => item.brand === "ToffyHouse");
+    if (e.target.value === "Too Faced") {
+      let res = filterData.filter((item) => item.brand === "Too Faced");
       setData([...res]);
     }
-    if (e.target.value === "Spunkies") {
-      let res = filterData.filter((item) => item.brand === "Spunkies");
+    if (e.target.value === "Bobbi Brown") {
+      let res = filterData.filter((item) => item.brand === "Bobbi Brown");
       setData([...res]);
     }
-    if (e.target.value === "Babyhug") {
-      let res = filterData.filter((item) => item.brand === "Babyhug");
+    if (e.target.value === "30 ML") {
+      let res = filterData.filter((item) => item.size === "30 ML");
       setData([...res]);
     }
-    if (e.target.value === "Pine") {
-      let res = filterData.filter((item) => item.brand === "Pine");
+    if (e.target.value === "25 ML") {
+      let res = filterData.filter((item) => item.size === "25 ML");
       setData([...res]);
     }
-    if (e.target.value === "Kookie") {
-      let res = filterData.filter((item) => item.brand === "Kookie");
+    if (e.target.value === "7.5 gm") {
+      let res = filterData.filter((item) => item.size === "7.5 gm");
       setData([...res]);
     }
-    if (e.target.value === "Babyoye") {
-      let res = filterData.filter((item) => item.brand === "Babyoye");
+    if (e.target.value === "35 ML") {
+      let res = filterData.filter((item) => item.size === "35 ML");
       setData([...res]);
     }
-    if (e.target.value === "Multicolor") {
-      let res = filterData.filter((item) => item.color === "Multicolor");
+    if (e.target.value === "40 ML") {
+      let res = filterData.filter((item) => item.size === "40 ML");
       setData([...res]);
     }
-    if (e.target.value === "Sky") {
-      let res = filterData.filter((item) => item.color === "mattresses");
+    if (e.target.value === "12.5 gm") {
+      let res = filterData.filter((item) => item.size === "12.5 gm");
       setData([...res]);
     }
-    if (e.target.value === "Blue") {
-      let res = filterData.filter((item) => item.color === "Blue");
+    if (e.target.value === "9 gm") {
+      let res = filterData.filter((item) => item.size === "9 gm");
       setData([...res]);
     }
-    if (e.target.value === "White") {
-      let res = filterData.filter((item) => item.color === "White");
+    if (e.target.value === "350G Dulce De Leche") {
+      let res = filterData.filter(
+        (item) => item.color === "350G Dulce De Leche"
+      );
       setData([...res]);
     }
-    if (e.target.value === "Yellow") {
-      let res = filterData.filter((item) => item.color === "Yellow");
+    if (e.target.value === "33 Walnut") {
+      let res = filterData.filter((item) => item.color === "33 Walnut");
       setData([...res]);
     }
-    if (e.target.value === "Orange") {
-      let res = filterData.filter((item) => item.color === "Orange");
+    if (e.target.value === "10 Ivory") {
+      let res = filterData.filter((item) => item.color === "10 Ivory");
       setData([...res]);
     }
-    if (e.target.value === "Full sleeve") {
-      let res = filterData.filter((item) => item.sleeve === "Full sleeve");
+    if (e.target.value === "36 Amber") {
+      let res = filterData.filter((item) => item.color === "36 Amber");
       setData([...res]);
     }
-    if (e.target.value === "Half sleeve") {
-      let res = filterData.filter((item) => item.sleeve === "Half sleeve");
+    if (e.target.value === "25 N") {
+      let res = filterData.filter((item) => item.color === "25 N");
       setData([...res]);
     }
-    if (e.target.value === "Pyjama") {
-      let res = filterData.filter((item) => item.category === "Pyjama");
+    if (e.target.value === "33.5 Y") {
+      let res = filterData.filter((item) => item.color === "33.5 Y");
       setData([...res]);
     }
-    if (e.target.value === "Pyjama") {
-      let res = filterData.filter((item) => item.category === "Pyjama");
+    if (e.target.value === "Foundation") {
+      let res = filterData.filter((item) => item.category === "Foundation");
+      setData([...res]);
+    }
+    if (e.target.value === "Natural") {
+      let res = filterData.filter((item) => item.category === "Natural");
+      setData([...res]);
+    }
+    if (e.target.value === "Matte") {
+      let res = filterData.filter((item) => item.category === "Matte");
+      setData([...res]);
+    }
+    if (e.target.value === "Foundation") {
+      let res = filterData.filter((item) => item.category === "Foundation");
+      setData([...res]);
+    }
+    if (e.target.value === "Foundation") {
+      let res = filterData.filter((item) => item.category === "Foundation");
+      setData([...res]);
+    }
+    if (e.target.value === "Foundation") {
+      let res = filterData.filter((item) => item.category === "Foundation");
+      setData([...res]);
+    }
+    if (e.target.value === "Foundation") {
+      let res = filterData.filter((item) => item.category === "Foundation");
+      setData([...res]);
+    }
+    if (e.target.value === "Foundation") {
+      let res = filterData.filter((item) => item.category === "Foundation");
       setData([...res]);
     }
   };
@@ -175,66 +207,106 @@ const ProductPage = () => {
                   <Checkbox
                     size="md"
                     colorScheme="red"
-                    value="U.S. Polo Assn."
+                    value="HUDA BEAUTY"
                     onChange={handleFilter}
                   >
-                    U.S. Polo Assn.
+                    HUDA BEAUTY
                   </Checkbox>
                   <Checkbox
                     size="md"
                     colorScheme="red"
-                    value="Carter's"
+                    value="Sephora Collection"
                     onChange={handleFilter}
                   >
-                    Carter's
+                    Sephora Collection
                   </Checkbox>
                   <Checkbox
                     size="md"
                     colorScheme="red"
-                    value="ToffyHouse"
+                    value="Too Faced"
                     onChange={handleFilter}
                   >
-                    ToffyHouse
+                    Too Faced
                   </Checkbox>
                   <Checkbox
                     size="md"
                     colorScheme="red"
-                    value="Spunkies"
+                    value="Bobbi Brown"
                     onChange={handleFilter}
                   >
-                    Spunkies
+                    Bobbi Brown
+                  </Checkbox>
+                </Stack>
+              </MenuList>
+            </Menu>
+            <Menu>
+              <MenuButton
+                as={Button}
+                rightIcon={<ChevronRightIcon fontSize={"28px"} />}
+                border="2px solid black"
+                my={2}
+                borderRadius={"none"}
+                textAlign="left"
+              >
+                Size
+              </MenuButton>
+              <MenuList p={3}>
+                <Stack spacing={[1]} direction={["column"]}>
+                  <Checkbox
+                    size="md"
+                    colorScheme="red"
+                    value="30 ML"
+                    onChange={handleFilter}
+                  >
+                    30 ML
                   </Checkbox>
                   <Checkbox
                     size="md"
                     colorScheme="red"
-                    value="Babyhug"
+                    value="25 ML"
                     onChange={handleFilter}
                   >
-                    Babyhug
+                    25 ML
                   </Checkbox>
                   <Checkbox
                     size="md"
                     colorScheme="red"
-                    value="Pine"
+                    value="7.5 gm"
                     onChange={handleFilter}
                   >
-                    Pine
+                    7.5 gm
                   </Checkbox>
                   <Checkbox
                     size="md"
                     colorScheme="red"
-                    value="Kookie"
+                    value="35 ML"
                     onChange={handleFilter}
                   >
-                    Kookie
+                    35 ML
                   </Checkbox>
                   <Checkbox
                     size="md"
                     colorScheme="red"
-                    value="Babyoye"
+                    value="40 ML"
                     onChange={handleFilter}
                   >
-                    Babyoye
+                    40 ML
+                  </Checkbox>
+                  <Checkbox
+                    size="md"
+                    colorScheme="red"
+                    value="12.5 gm"
+                    onChange={handleFilter}
+                  >
+                    12.5 gm
+                  </Checkbox>
+                  <Checkbox
+                    size="md"
+                    colorScheme="red"
+                    value="9 gm"
+                    onChange={handleFilter}
+                  >
+                    9 gm
                   </Checkbox>
                 </Stack>
               </MenuList>
@@ -255,82 +327,50 @@ const ProductPage = () => {
                   <Checkbox
                     size="md"
                     colorScheme="red"
-                    value="Multicolor"
+                    value="350G Dulce De Leche"
                     onChange={handleFilter}
                   >
-                    Multicolor
+                    350G Dulce De Leche
                   </Checkbox>
                   <Checkbox
                     size="md"
                     colorScheme="red"
-                    value="Sky"
+                    value="33 Walnut"
                     onChange={handleFilter}
                   >
-                    Sky
+                    33 Walnut
                   </Checkbox>
                   <Checkbox
                     size="md"
                     colorScheme="red"
-                    value="Blue"
+                    value="10 Ivory"
                     onChange={handleFilter}
                   >
-                    Blue
+                    10 Ivory
                   </Checkbox>
                   <Checkbox
                     size="md"
                     colorScheme="red"
-                    value="White"
+                    value="36 Amber"
                     onChange={handleFilter}
                   >
-                    White
+                    36 Amber
                   </Checkbox>
                   <Checkbox
                     size="md"
                     colorScheme="red"
-                    value="Yellow"
+                    value="25 N"
                     onChange={handleFilter}
                   >
-                    Yellow
+                    25 N
                   </Checkbox>
                   <Checkbox
                     size="md"
                     colorScheme="red"
-                    value="Orange"
+                    value="33.5 Y"
                     onChange={handleFilter}
                   >
-                    Orange
-                  </Checkbox>
-                </Stack>
-              </MenuList>
-            </Menu>
-            <Menu>
-              <MenuButton
-                as={Button}
-                rightIcon={<ChevronRightIcon fontSize={"28px"} />}
-                border="2px solid black"
-                my={2}
-                borderRadius={"none"}
-                textAlign="left"
-              >
-                Sleeve
-              </MenuButton>
-              <MenuList p={3}>
-                <Stack spacing={[1]} direction={["column"]}>
-                  <Checkbox
-                    size="md"
-                    colorScheme="red"
-                    value="Full sleeve"
-                    onChange={handleFilter}
-                  >
-                    Full sleeve
-                  </Checkbox>
-                  <Checkbox
-                    size="md"
-                    colorScheme="red"
-                    value="Half sleeve"
-                    onChange={handleFilter}
-                  >
-                    Half sleeve
+                    33.5 Y
                   </Checkbox>
                 </Stack>
               </MenuList>
@@ -351,18 +391,10 @@ const ProductPage = () => {
                   <Checkbox
                     size="md"
                     colorScheme="red"
-                    value="pyjama"
+                    value="Foundation"
                     onChange={handleFilter}
                   >
-                    Pyjama
-                  </Checkbox>
-                  <Checkbox
-                    size="md"
-                    colorScheme="red"
-                    value="suit"
-                    onChange={handleFilter}
-                  >
-                    Suit
+                    Foundation
                   </Checkbox>
                 </Stack>
               </MenuList>
@@ -376,25 +408,25 @@ const ProductPage = () => {
                 borderRadius={"none"}
                 textAlign="left"
               >
-                Neck
+                Finish
               </MenuButton>
               <MenuList p={3}>
                 <Stack spacing={[1]} direction={["column"]}>
                   <Checkbox
                     size="md"
                     colorScheme="red"
-                    value="pyjama"
+                    value="Matte"
                     onChange={handleFilter}
                   >
-                    Pyjama
+                    Matte
                   </Checkbox>
                   <Checkbox
                     size="md"
                     colorScheme="red"
-                    value="suit"
+                    value="Natural"
                     onChange={handleFilter}
                   >
-                    Suit
+                    Natural
                   </Checkbox>
                 </Stack>
               </MenuList>
@@ -408,25 +440,41 @@ const ProductPage = () => {
                 borderRadius={"none"}
                 textAlign="left"
               >
-                Rating
+                Skin Type
               </MenuButton>
               <MenuList p={3}>
                 <Stack spacing={[1]} direction={["column"]}>
                   <Checkbox
                     size="md"
                     colorScheme="red"
-                    value="pyjama"
+                    value="All"
                     onChange={handleFilter}
                   >
-                    Pyjama
+                    All
                   </Checkbox>
                   <Checkbox
                     size="md"
                     colorScheme="red"
-                    value="suit"
+                    value="Normal"
                     onChange={handleFilter}
                   >
-                    Suit
+                    Normal
+                  </Checkbox>
+                  <Checkbox
+                    size="md"
+                    colorScheme="red"
+                    value="Combination"
+                    onChange={handleFilter}
+                  >
+                    Combination
+                  </Checkbox>
+                  <Checkbox
+                    size="md"
+                    colorScheme="red"
+                    value="Oily"
+                    onChange={handleFilter}
+                  >
+                    Oily
                   </Checkbox>
                 </Stack>
               </MenuList>
@@ -440,25 +488,33 @@ const ProductPage = () => {
                 borderRadius={"none"}
                 textAlign="left"
               >
-                Pattern
+                Coverage
               </MenuButton>
               <MenuList p={3}>
                 <Stack spacing={[1]} direction={["column"]}>
                   <Checkbox
                     size="md"
                     colorScheme="red"
-                    value="pyjama"
+                    value="Full"
                     onChange={handleFilter}
                   >
-                    Pyjama
+                    Full
                   </Checkbox>
                   <Checkbox
                     size="md"
                     colorScheme="red"
-                    value="suit"
+                    value="Medium"
                     onChange={handleFilter}
                   >
-                    Suit
+                    Medium
+                  </Checkbox>
+                  <Checkbox
+                    size="md"
+                    colorScheme="red"
+                    value="Sheer"
+                    onChange={handleFilter}
+                  >
+                    Sheer
                   </Checkbox>
                 </Stack>
               </MenuList>
@@ -469,14 +525,7 @@ const ProductPage = () => {
           <Grid templateColumns="repeat(3, 1fr)">
             {data.map((el) => {
               return (
-                <GridItem
-                  p={"10px"}
-                  h={"auto"}
-                  // _hover={{
-                  //   boxShadow:
-                  //     "rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px",
-                  // }}
-                >
+                <GridItem p={"10px"} h={"auto"}>
                   <Card p={3}>
                     <Box w={"100%"} h={"70%"} m={"auto"}>
                       <Image src={el.image} w={"100%"} h={"100%"} />
@@ -493,13 +542,13 @@ const ProductPage = () => {
                       </Text>
                     </Flex>
                     <Text as="b" fontSize="sm">
-                      SEPHORA COLLECTION
+                      {el.brand.toUpperCase()}
                     </Text>
                     <Text w={"100%"} p={"2% 0"} as="samp" fontSize="xs">
                       {el.description}
                     </Text>
-                    
-                      <Text as="b">Rs.{el.price}</Text>
+
+                    <Text as="b">Rs.{el.price}</Text>
                     {/* <Text>{el.brand} </Text>
                     <Text>{el.category} </Text>
                     <Text>{el.color} </Text>

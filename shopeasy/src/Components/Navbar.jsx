@@ -8,11 +8,12 @@ import { Box, Button, useDisclosure } from "@chakra-ui/react";
 import CartPage from "./Pages/CartPage";
 import Login from "./Pages/Login";
 import { AuthContext } from "./Context/AuthContext";
+import logo from ".././project_logo.png";
 export const Navbar = () => {
   const [ishover, setHover] = useState(false);
   const { isOpen, onOpen, onClose } = useDisclosure();
   const { token, logoutUser } = useContext(AuthContext);
-  console.log(token,'navbar')
+  console.log(token, "navbar");
 
   const btnRef = useRef();
 
@@ -43,10 +44,7 @@ export const Navbar = () => {
           <div className="Navbar-14">
             <Link className="Navbar-15" to={`/`}>
               <div className="Navbar-15">
-                <img
-                  src="https://cdn07.nnnow.com/web-images/master/navtree_metaData/59b2657be4b0e6b6e16a9180/1548053082431/se.png"
-                  alt="logo"
-                />
+                <img src={logo} alt="logo" />
               </div>
             </Link>
           </div>
