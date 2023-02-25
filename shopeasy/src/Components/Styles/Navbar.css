@@ -37,8 +37,9 @@
   /* border:2px solid blue; */
 }
 .Navbar-15 > img {
-  height: 100px;
+  height: 60px;
   width: 100%;
+  margin-top: 10px;
 }
 .Navbar-17 {
   margin: 30px 0 0 0;

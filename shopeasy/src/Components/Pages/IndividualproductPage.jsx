@@ -87,7 +87,7 @@ const IndividualproductPage = () => {
             <Stack spacing={4} direction="row" align="center">
               <h1>SIZE:</h1>
               <Button colorScheme="gray" variant="outline" size="md">
-                S
+                {product.size}
               </Button>
               
             </Stack>
@@ -123,7 +123,7 @@ const IndividualproductPage = () => {
                 IMPORTANT
               </Text>
               <Text px={2} py={2}>
-                All products that will be shipped will have ashelf-life more
+                All products that will be shipped will have a shelf-life more
                 than 8 months to 3 years.
               </Text>
             </Box>
