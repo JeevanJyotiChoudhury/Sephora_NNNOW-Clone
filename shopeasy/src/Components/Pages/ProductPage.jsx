@@ -498,24 +498,12 @@ const ProductPage = () => {
                     <Text w={"100%"} p={"2% 0"} as="samp" fontSize="xs">
                       {el.description}
                     </Text>
-                    <Flex
-                      mx={"auto"}
-                      w={"65%"}
-                      justify={"space-between"}
-                      pb={"2%"}
-                      fontSize="md"
-                    >
-                      <Text as="s">₹{el.strike_price}</Text>
-                      <Text as="b">₹{el.price}</Text>
-                      <Text color="red">
-                        (
-                        {Math.ceil(
-                          ((el.strike_price - el.price) / el.strike_price) * 100
-                        )}
-                        % OFF)
-                      </Text>
-                    </Flex>
-                    <Text>{el.rating} ⭐</Text>
+                    
+                      <Text as="b">Rs.{el.price}</Text>
+                    {/* <Text>{el.brand} </Text>
+                    <Text>{el.category} </Text>
+                    <Text>{el.color} </Text>
+                    <Text>{el.rating} ⭐</Text> */}
 
                     <Button
                       leftIcon={<HiOutlineShoppingBag />}

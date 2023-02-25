@@ -16,28 +16,17 @@ const HomePage = () => {
   return (
     <div>
       <Topslider />
-      <SpecialOffer data={special_offer_data.special_offer} />
-      <SpecialOffer data={special_offer_data.best_seller} />
-      <SpecialOffer data={special_offer_data.iconic_styles} />
-      <SpecialOffer data={special_offer_data.coupon_corner} />
-      <ExtraDiscount />
-      <SpecialOffer data={special_offer_data.flat_off} />
-      <SpecialOffer data={special_offer_data.big_beauty} />
-      <BigBeautyProd />
-      <SpecialOffer data={special_offer_data.price_store} />
-      <PriceStoreSlider />
-      <BankSlider />
-      <SpecialOffer data={special_offer_data.coming_hot} />
-      <HotProducts />
-      <SpecialOffer data={special_offer_data.uspa} />
-      <SpecialOffer data={special_offer_data.ck} />
-      <SpecialOffer data={special_offer_data.more_offers} />
+      <ExtraDiscount data={special_offer_data.special_category} />
+      <SpecialOffer data={special_offer_data.botw} />
+      <SpecialOffer data={special_offer_data.spring} />
+      <BigBeautyProd data={special_offer_data.botw_brands} />
+      <SpecialOffer data={special_offer_data.beauty_pass} />
+      <SpecialOffer data={special_offer_data.spring_essentials} />
+      <BigBeautyProd data={special_offer_data.spring_essentials_data} />
+      <SpecialOffer data={special_offer_data.fav_brands} />
+      <ExtraDiscount data={special_offer_data.fav_brands_data} />
+      <SpecialOffer data={special_offer_data.new_on_the_block} />
       <MoreOffersProd />
-      <SpecialOffer data={special_offer_data.customer_test} />
-      <CustomerTestimonials data={customer_test_prod_data.customer_test_prod} />
-      <SpecialOffer data={special_offer_data.top_brands} />
-      <CustomerTestimonials data={customer_test_prod_data.top_brands_prod} />
-      <BacktoTop/>
     </div>
   );
 };

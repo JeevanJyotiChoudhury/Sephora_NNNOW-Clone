@@ -12,6 +12,7 @@ import Signup from "../Pages/Signup";
 import Login from "../Pages/Login";
 import OrderPlaced from "../Pages/OrderPlaced";
 import Mybag from "../Pages/Mybag";
+import PrivateRoutes from "../PrivateRoutes"
 const AllRoutes = () => {
   return (
     <div>
@@ -21,7 +22,14 @@ const AllRoutes = () => {
         <Route path="/" element={<HomePage />} />
         <Route path="/products" element={<ProductPage />} />
         <Route path="/products/:id" element={<IndividualproductPage />} />
-        <Route path="/cart" element={<Mybag />} />
+        <Route
+          path="/cart"
+          element={
+            <PrivateRoutes>
+              <Mybag />
+            </PrivateRoutes>
+          }
+        />
         <Route path="/checkout" element={<Checkout />} />
         <Route path="/payment" element={<Payment />} />
         <Route path="/login" element={<Login />} />

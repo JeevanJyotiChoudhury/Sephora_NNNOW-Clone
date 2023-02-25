@@ -1,13 +1,11 @@
 import React from "react";
-import extradiscount_data from "../../db.json";
 import { Box, Flex, Grid, GridItem, Image } from "@chakra-ui/react";
 
-const ExtraDiscount = () => {
-  let extradiscountdata = extradiscount_data.extra_discount;
+const ExtraDiscount = ({data}) => {
   return (
     <Box w={"90%"} m={"20px auto"} >
-      <Flex justify="space-between">
-        {extradiscountdata.map((elem) => {
+      <Flex justify="space-between" gap={5}>
+        {data.map((elem) => {
           return (
             <Box
               _hover={{ cursor: "pointer" }}
