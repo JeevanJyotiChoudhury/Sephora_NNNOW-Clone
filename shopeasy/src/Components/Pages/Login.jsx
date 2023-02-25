@@ -18,8 +18,8 @@ const Login = () => {
   const [logins, setLogins] = useState(loginUsers);
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const {token ,loginUser} = useContext(AuthContext)
-console.log(token,"token")
+  const { token, loginUser } = useContext(AuthContext);
+  console.log(token, "token");
   const navigate = useNavigate();
 
   const emailRef = useRef();
@@ -31,32 +31,23 @@ console.log(token,"token")
     const email = emailRef.current.value;
     const password = passwordRef.current.value;
     console.log(email, password);
-      if (email === "jsusmita549@gmail.com" && password === "1234") {
-        loginUser("1234");
-      } else {
-        setEmail("");
-        setPassword("");
-        alert("Wrong Password or Register First");
-        navigate("/login");
-      }
+    if (email === "jeevan@gmail.com" && password === "1234") {
+      loginUser("1234");
+    } else {
+      setEmail("");
+      setPassword("");
+      alert("Wrong Password or Register First");
+      navigate("/login");
+    }
   };
   if (token) {
     return <Navigate to="/cart" />;
   }
   return (
     <>
-      <Flex
-        minH={"70vh"}
-        align={"center"}
-        justify={"center"}
-      >
+      <Flex minH={"70vh"} align={"center"} justify={"center"}>
         <Stack spacing={8} mx={"auto"} maxW={"2xl"} px={6}>
-          <Box
-            w={"400px"}
-            rounded={"lg"}
-            boxShadow={"lg"}
-            p={8}
-          >
+          <Box w={"400px"} rounded={"lg"} boxShadow={"lg"} p={8}>
             <Stack spacing={4}>
               <center>
                 <Text fontSize={"3xl"} as="b">

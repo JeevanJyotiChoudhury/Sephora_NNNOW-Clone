@@ -90,7 +90,7 @@ export const Navbar = () => {
                 {!token ? (
                   <Link to={`/login`}>Login</Link>
                 ) : (
-                  <Box onClick={logoutUser}>Susmita</Box>
+                  <Box onClick={logoutUser}>Jeevan</Box>
                 )}
               </div>
             </div>
