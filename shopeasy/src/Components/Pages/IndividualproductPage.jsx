@@ -76,22 +76,10 @@ const IndividualproductPage = () => {
             {product.description}
           </Text>
           <br />
-          <Flex w="50%" pt={4} justify={"space-between"}>
-            <Box>
-              <Text fontSize="md" as="s" color="gray">
-                Rs.{product.strike_price}.00
-              </Text>
-            </Box>
-
-            <Box>
-              <Text fontSize="sm" color="tomato">
-                ({discount}% OFF) T&C
-              </Text>
-            </Box>
-          </Flex>
+          
           <Box mt={3}>
             <Text fontSize="md" as="b">
-              OFFER PRICE: Rs.{product.price}
+              Rs. { product.price}
             </Text>
           </Box>
 
@@ -101,22 +89,11 @@ const IndividualproductPage = () => {
               <Button colorScheme="gray" variant="outline" size="md">
                 S
               </Button>
-              <Button colorScheme="gray" variant="outline" size="md">
-                M
-              </Button>
-              <Button colorScheme="gray" variant="outline" size="md">
-                L
-              </Button>
-              <Button colorScheme="gray" variant="outline" size="md">
-                XL
-              </Button>
-              <Button colorScheme="gray" variant="outline" size="md">
-                XXL
-              </Button>
+              
             </Stack>
           </Box>
           <Flex mr={5} mt={4}>
-            <Box px={3} pt={2}>
+            <Box pr={3} pt={2}>
               <Text as="b">OFFER:</Text>
             </Box>
             <Box>

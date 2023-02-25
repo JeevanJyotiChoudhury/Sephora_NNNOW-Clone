@@ -29,9 +29,8 @@ const Cart = () => {
                   <Box w="60%">
                     <Text>{el.brand}</Text>
                     <Text fontSize={"xs"}>{el.description}</Text>
-                    <Text as="s">MRP: ₹{el.strike_price}</Text>
-                    <Text color="red">Offer Price:₹{el.price}</Text>
-                    <Text>Color:{el.color}</Text>
+                    <Text fontSize={"xs"} as='b'>Rs. {el.price}</Text>
+                    <Text fontSize={"xs"}>Color:{el.color}</Text>
                     <Text color="gray.500" fontSize={"xs"}>
                       MRP Includes all taxes
                     </Text>

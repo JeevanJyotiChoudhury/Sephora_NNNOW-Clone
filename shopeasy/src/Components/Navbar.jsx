@@ -3,20 +3,21 @@ import { Link, Navigate, useNavigate } from "react-router-dom";
 import { HiOutlineShoppingBag } from "react-icons/hi";
 import { FiSearch, FiHeart } from "react-icons/fi";
 import { RiContactsLine } from "react-icons/ri";
-import { useRef, useState } from "react";
-import { useDisclosure } from "@chakra-ui/react";
+import { useContext, useRef, useState } from "react";
+import { Box, Button, useDisclosure } from "@chakra-ui/react";
 import CartPage from "./Pages/CartPage";
+import Login from "./Pages/Login";
+import { AuthContext } from "./Context/AuthContext";
 export const Navbar = () => {
   const [ishover, setHover] = useState(false);
   const { isOpen, onOpen, onClose } = useDisclosure();
-  
-    const btnRef = useRef();
+  const { token, logoutUser } = useContext(AuthContext);
+  console.log(token,'navbar')
 
+  const btnRef = useRef();
 
-  const handleCart = () => {
-  };
-  const logouter = () => {
-  };
+  const handleCart = () => {};
+  const logouter = () => {};
   const isHOvered = () => {
     setHover(true);
   };
@@ -59,7 +60,6 @@ export const Navbar = () => {
                 ref={btnRef}
                 colorScheme="teal"
                 onClick={onOpen}
-                
                 style={{ cursor: "pointer" }}
               >
                 <HiOutlineShoppingBag fontSize={"22px"} />
@@ -68,14 +68,15 @@ export const Navbar = () => {
                   isOpen={isOpen}
                   onOpen={onOpen}
                   onClose={onClose}
-                  
                 />
               </li>
               <li>|</li>
 
               <Link to={`/login`}>
                 <span id="adjustment1">
-                  <li>{<RiContactsLine fontSize={"22px"} />}</li>
+                  <li>
+                    <RiContactsLine fontSize={"22px"} />
+                  </li>
                 </span>
               </Link>
 
@@ -86,7 +87,11 @@ export const Navbar = () => {
                   fontWeight: "500",
                 }}
               >
-                Login
+                {!token ? (
+                  <Link to={`/login`}>Login</Link>
+                ) : (
+                  <Box onClick={logoutUser}>Susmita</Box>
+                )}
               </div>
             </div>
           </div>
