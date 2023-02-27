@@ -4,7 +4,9 @@ I have cloned this project with-in the construct week of Unit-4. I have tried to
 
 About: It is a one-stop shopping web-site for luxury beauty and skincare products at affordable prices to make available through-out India.
 
-Images of different pages of website:
+Images of different pages of the website:
+
+
 ![image](https://user-images.githubusercontent.com/111522711/221366615-a38ef1b9-82d0-4efa-8eda-f26037381c2c.png)
 
 ![image](https://user-images.githubusercontent.com/111522711/221366646-dbe71746-71c0-486a-a9b4-256c3501c240.png)
