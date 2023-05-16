@@ -114,7 +114,7 @@ export const Navbar = () => {
               onMouseOver={isHOvered}
               onMouseOut={removeHover}
             >
-              <Link to={`/mackupproduct`}>
+              <Link>
                 <a href="" className="heading">
                   MAKEUP
                 </a>
@@ -258,7 +258,7 @@ export const Navbar = () => {
               onMouseOver={isHOvered}
               onMouseOut={removeHover}
             >
-              <Link to={`/skinproduct`}>
+              <Link>
                 <a className="heading" href="/products">
                   SKINCARE
                 </a>
@@ -403,7 +403,7 @@ export const Navbar = () => {
               onMouseOver={isHOvered}
               onMouseOut={removeHover}
             >
-              <Link to={`/hairproduct`}>
+              <Link>
                 <a className="heading" href="/products">
                   FRAGRANCE
                 </a>
@@ -446,7 +446,7 @@ export const Navbar = () => {
               onMouseOver={isHOvered}
               onMouseOut={removeHover}
             >
-              <Link to={`/allhair`}>
+              <Link>
                 <a className="heading" href="">
                   HAIRCARE
                 </a>
